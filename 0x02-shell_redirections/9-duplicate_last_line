@@ -1,3 +1,2 @@
-cat>9-duplicate_last_line
 #!/bin/bash
-tail -n 1 <iacta>>iacta
+head -3 < iacta>> tail -1
